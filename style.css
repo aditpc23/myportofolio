@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; }
+.cover { position: relative; width: 100%; overflow: hidden; }
+.cover img { width: 100%; height: auto; display: block; }
+.overlay {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.button {
+  display: inline-block; margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #0073aa; color: white;
+  text-decoration: none; border-radius: 5px;
+  font-weight: bold;
+}
+.button:hover { background-color: #005c88; }
